@@ -1,0 +1,192 @@
+{
+  "items": [
+    {
+      "text": "Cheat Engine clone (super leerzaam als in memory access, read/writing naar memory, basic UI).",
+      "hidden": false
+    },
+    {
+      "text": "CurseForge clone (dit is een grap maar eigenlijk wel cool).",
+      "hidden": false
+    },
+    {
+      "text": "Wikipedia API door AI heen halen om vragen te maken (net zoals Berend) en een local-multiplayer trivia game maken.",
+      "hidden": false
+    },
+    {
+      "text": "Clipboard history folder voor Windows, net zoals de snipping tool images opslaat in je schijf.",
+      "hidden": false
+    },
+    {
+      "text": "Lightweight sound effect player die gewoon op je microfoon output gaat (zoals Discord soundboard zonder paywall).",
+      "hidden": false
+    },
+    {
+      "text": "Sudoku creator/validator/solver.",
+      "hidden": false
+    },
+    {
+      "text": "Website waar je kan zien of je gratis studenten OV hebt (gewoon JA of NEE).",
+      "hidden": false
+    },
+    {
+      "text": "Gameboard/minigame party game.",
+      "hidden": false
+    },
+    {
+      "text": "App waar je foto’s kan maken met een klein berichtje en dat ze op datum worden geprikt op de kaart.",
+      "hidden": false
+    },
+    {
+      "text": "Spotify genre gradient om muziek te mixen zonder genre chaos.",
+      "hidden": false
+    },
+    {
+      "text": "Real-time schaken (kung fu chess).",
+      "hidden": false
+    },
+    {
+      "text": "Rhythm game.",
+      "hidden": false
+    },
+    {
+      "text": "Doom-like FPS game met hallucinations of fancy shader effects.",
+      "hidden": false
+    },
+    {
+      "text": "Web chat client (misschien Omegle clone).",
+      "hidden": false
+    },
+    {
+      "text": "Chess game in Unity/Web (voor Lab portfolio?).",
+      "hidden": false
+    },
+    {
+      "text": "Visual dialogue tool (zoals shader graph, node system met choices).",
+      "hidden": false
+    },
+    {
+      "text": "Unity level editor.",
+      "hidden": false
+    },
+    {
+      "text": "Custom HTML tag system voor Unity TMP (wave/vertex jitter/rainbow).",
+      "hidden": false
+    },
+    {
+      "text": "Color Picker Util Package voor Unity.",
+      "hidden": false
+    },
+    {
+      "text": "Unity geselecteerd object screenshot tool.",
+      "hidden": false
+    },
+    {
+      "text": "Windows Shell extension PasteAsFile (copybuffer paste).",
+      "hidden": false
+    },
+    {
+      "text": "Custom radio station voor auto zonder Bluetooth.",
+      "hidden": false
+    },
+    {
+      "text": "Custom Unity inspector button attribute [Button(\"aaa\")].",
+      "hidden": false
+    },
+    {
+      "text": "Custom code blocks voor Rider (bijv. for => simple for loop).",
+      "hidden": false
+    },
+    {
+      "text": "Yuzu custom Nintendo game launcher.",
+      "hidden": false
+    },
+    {
+      "text": "Cards Against Humanity clone.",
+      "hidden": false
+    },
+    {
+      "text": "Vencord/Aliacord no metadata plugin.",
+      "hidden": false
+    },
+    {
+      "text": "Guess the song game met je eigen playlist (Spotify API).",
+      "hidden": false
+    },
+    {
+      "text": "Transition effects shader pack.",
+      "hidden": false
+    },
+    {
+      "text": "Spotify clone mahost site.",
+      "hidden": false
+    },
+    {
+      "text": "Seasonal/Weather wallpaper changing app.",
+      "hidden": false
+    },
+    {
+      "text": "Sexist/racist Instagram bot troll account.",
+      "hidden": false
+    },
+    {
+      "text": "NXBrew direct link website clone (zonder redirects).",
+      "hidden": false
+    },
+    {
+      "text": "Saisei - anime streaming site.",
+      "hidden": false
+    },
+    {
+      "text": "Wikipedia API Wrapper Unitypackage.",
+      "hidden": false
+    },
+    {
+      "text": "Face tracking naar webcam overlay/png distorting.",
+      "hidden": false
+    },
+    {
+      "text": "TTS Voice Channel bot (text-to-spoken bot voor Discord).",
+      "hidden": false
+    },
+    {
+      "text": "Flashbang Malware (requis).",
+      "hidden": false
+    },
+    {
+      "text": "Texture zipping tool voor Unity.",
+      "hidden": false
+    },
+    {
+      "text": "Infinite Conway’s Game of Life in Unity.",
+      "hidden": false
+    },
+    {
+      "text": "Lawnmower enemy in Hedge Runner.",
+      "hidden": false
+    },
+    {
+      "text": "Image Tinder searchbar image sorter.",
+      "hidden": false
+    },
+    {
+      "text": "Searchbar \"path\" command.",
+      "hidden": false
+    },
+    {
+      "text": "Gofile searchbar command (uploads folder).",
+      "hidden": false
+    },
+    {
+      "text": "Daily to-do list in Android Studio app waar je een tijd neer kan zetten net zoals agenda, en je een uur/dag ervoor een reminder krijgt, en je kan zien in een grafiek hoevaak je een daily task hebt gedaan, of met rode/groene/oranje puntjes kan zien in een jaarkalender of je alles hebt gedaan (met een groen/rood bolletje als er een task is toegevoegd/verwijderd).",
+      "hidden": false
+    },
+    {
+      "text": "i18 translation table",
+      "hidden": false
+    },
+    {
+      "text": "hey hoi",
+      "hidden": true
+    }
+  ]
+}

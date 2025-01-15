@@ -1,0 +1,277 @@
+/* General Reset and Body Styling */
+body {
+    background-color: #151515;
+    color: white;
+    user-select: none;
+    -webkit-user-drag: none;
+    font-family: 'Arial Black', Gadget, sans-serif; /* Blocky brutalist font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 0.2s;
+}
+
+h1 {
+    margin: 40px;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff004f; /* Bold accent color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container for items */
+.dingendingen {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    /* border-radius: 15px; */
+    border-radius: 0px;
+    width: 90%;
+    max-width: 700px;
+    border: 4px solid #ff004f; /* Bold accent border */
+    box-shadow: 0 8px 20px rgba(255, 0, 79, 0.2); /* Subtle shadow */
+    overflow: hidden;
+}
+
+/* Individual item styling */
+.item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid #333;
+    transition: background-color ease 0.2s, transform ease 0.2s;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+.item:active {
+    transform: scale(1);
+}
+
+/* Text styling */
+.item p {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    flex: 1; /* Takes available space */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color ease 0.2s;
+}
+
+/* Checkmark container styling */
+.item .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ff004f; /* Accent color */
+    /* border-radius: 8px; */
+    border-radius: 0px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(255, 0, 79, 0.4);
+    transition: background-color ease 0.3s, box-shadow ease 0.3s;
+}
+
+.item .checkmark svg {
+    opacity: 0;
+    fill: white;
+    transform: scale(0.8);
+    transition: opacity ease 0.2s, transform ease 0.2s;
+}
+
+/* Active item styling */
+.item.active .checkmark {
+    background-color: #00ff85; /* Different accent color for active */
+    box-shadow: 0 4px 8px rgba(0, 255, 133, 0.4);
+}
+
+.item.active p {
+    color: #00ff85;
+}
+
+.item.active .checkmark svg {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Delete Button Styling */
+.delete {
+    background: none;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    border: none;
+    font-size: 1.5rem;
+    color: #ff004f;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.delete:hover {
+    opacity: 1;
+}
+
+.add-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 2px solid #333;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-input input {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-family: 'Arial Black', Gadget, sans-serif; /* Blocky brutalist font */
+}
+
+.add:hover{
+    background-color: #fff3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .dingendingen {
+        width: 100%;
+        max-width: 100%;
+        border-width: 3px;
+    }
+
+    .item {
+        padding: 15px;
+    }
+
+    .item p {
+        font-size: 1rem;
+    }
+
+    .item .checkmark {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+        margin: 20px;
+    }
+
+    .item {
+        padding: 10px;
+    }
+
+    .item p {
+        font-size: 0.9rem;
+    }
+
+    .item .checkmark {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+/* New input and button styling for the "add-item" */
+.add-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #333;
+    transition: background-color ease 0.2s, transform ease 0.2s;
+}
+
+/* Styling for the add-input container */
+.add-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 20px;
+    width: 100%;
+
+    color: #ff004f;
+    border: solid;
+    border-color: #ff004f;
+    border-width: 3px;
+    padding: 10px 20px;
+}
+
+/* Styling for the input field */
+.add-input {
+    flex: 1;
+    padding: 8px;
+    background-color: #0000;
+    color: white;
+}
+
+/* Styling for the add button */
+.add {
+    background-color: #0000;
+    color: #ff004f;
+    border: solid;
+    border-color: #ff004f;
+    border-width: 3px;
+    padding: 10px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.add-input:focus, .add-input:focus{
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .add-input input {
+        font-size: 1rem;
+    }
+
+    .add {
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-input input {
+        font-size: 0.9rem;
+    }
+
+    .add {
+        font-size: 1rem;
+    }
+}

@@ -28,7 +28,7 @@ app.get('/api/items', (req, res) => {
 // Update an item's hidden status
 app.put('/api/items/:index', (req, res) => {
     const { index } = req.params;
-    const { hidden, text } = req.body;
+    const { hidden, text, checked } = req.body;
 
     fs.readFile(dataFilePath, 'utf8', (err, data) => {
         if (err) {
@@ -41,7 +41,8 @@ app.put('/api/items/:index', (req, res) => {
         if (item) {
             // Modify the item
             if (text !== undefined) item.text = text;
-            item.hidden = hidden;
+            if (hidden !== undefined) item.hidden = hidden;
+            if (checked !== undefined) item.checked = checked;
 
             // Save the updated data back to the JSON file
             fs.writeFile(dataFilePath, JSON.stringify(jsonData, null, 2), (err) => {
